@@ -12,6 +12,15 @@ namespace CodeScanning.Secure
         protected void Page_Load(object sender, EventArgs e)
         {
             string id = Request.QueryString["id"].ToString();
+
+            CallDatabase(id);
+        }
+
+
+
+        protected void CallDatabase(string id)
+        {
+            
         }
     }
 }
